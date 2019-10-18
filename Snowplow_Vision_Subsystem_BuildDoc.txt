@@ -1,0 +1,70 @@
+Snowplow Vision Subsystem Build Doc.
+Revision A
+Samira Sadat
+
+1.Project Setup
+	A. Operating System
+		i.Ubuntu 18.04
+		ii.Ubuntu Linux Subsystem for Windows 10
+		iii.Virtual Machine
+
+	B. Development Environment
+		i.Visual Studio Code (reccomended)
+			1. https://code.visualstudio.com/docs/python/python-tutorial
+		ii.Any IDE that supports python
+		iii.Nano (Commandline editor)
+			1. Type this into command prompt: nano /path/to/filename
+
+	C. Repository
+		i. Create Github Account (https://github.com/)
+		ii. Request Repo Access
+			1. Email the Snowplow Lead and they will grant you access.
+			2. Navigate to https://github.com/BisonRobotics/snowplow-Vision-system
+		iii. Clone Repo
+			1. Download Zip file and unzip to C:/Projects/
+			2. OR Clone using HTTPS link and source control tool (see section..)
+			3. OR Type this into command prompt: git clone HTTPSlink
+
+2. Common Tools
+	A. Python 3.7.X
+		i. Check version
+			python3
+			exit()
+		i. Update Packages list
+			sudo apt update
+		ii. Install the latest version
+			sudo apt-get install python3
+
+	B. Pip
+		i. Used to manage python packages (to install, update etc.)
+		ii. Install
+			sudo apt install python3-pip
+		iii. Check version
+			pip3 --version (should be 9 or higher)
+
+	C. X-Server
+
+	D. Compilers
+
+3. Software Libraries
+	A. OpenCV4 for Python
+		i.Install
+			sudo apt update
+			sudo apt install python3-opencv
+		ii.Verify Installation
+			python3
+			import cv2 (you should have no errors)
+			cv2.__version__ (you should see the version-its out of date)
+		iii. Update the version - requires pip (section 2.B)
+			pip3 install opencv-python
+		iv. Helpful Tutorials
+			1. OpenCV4 for Ubuntu 18.04 - https://www.youtube.com/watch?v=cGmGOi2kkJ4
+
+	B. ROS Melodic 
+
+4. Documentation
+	A. Google Drive
+		i. Request access to Bison Robotics folder from Snowplow Lead
+		ii. Navigate to Bison Robotics/Projects/Snowplow/2020 Snowplow/Senior Design - Computer Vision
+
+	B. Trello
