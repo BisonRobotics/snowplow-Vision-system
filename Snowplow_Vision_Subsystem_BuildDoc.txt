@@ -17,13 +17,16 @@ Samira Sadat
 
 	C. Repository
 		i. Create Github Account (https://github.com/)
-		ii. Request Repo Access
+		ii. Request Snowplow Repo Access
 			1. Email the Snowplow Lead and they will grant you access.
 			2. Navigate to https://github.com/BisonRobotics/snowplow-Vision-system
-		iii. Clone Repo
+		iii. Clone Snowplow Repo
 			1. Download Zip file and unzip to C:/Projects/
 			2. OR Clone using HTTPS link and source control tool (see section..)
 			3. OR Type this into command prompt: git clone HTTPSlink
+		iv. Clone OpenCV 4.1.1 Repo
+			1. https://github.com/opencv/opencv/tree/4.1.1
+			2. Clone to C:/Projects
 
 2. Common Tools
 	A. Python 3.7.X
