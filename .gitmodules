@@ -1,0 +1,4 @@
+[submodule "apriltag_ros"]
+	path = apriltag_ros
+	url = git@github.com:AprilRobotics/apriltag_ros.git
+	branch = master
