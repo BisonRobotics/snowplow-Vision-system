@@ -21,6 +21,7 @@ sudo make install
 **References:**
 - https://github.com/IntelRealSense/librealsense/blob/development/doc/distribution_linux.md
 - https://www.intelrealsense.com/get-started-depth-camera/
+- https://github.com/IntelRealSense/realsense-ros
 
 
 install dependencies:
