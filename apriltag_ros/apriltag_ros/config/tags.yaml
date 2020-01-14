@@ -29,11 +29,14 @@ standalone_tags:
     {id: 6, size: 0.064},
     {id: 7, size: 0.12},
     {id: 8, size: 0.17},
-    {id: 10, size: 0.064},
-    {id: 11, size: 0.064},
-    {id: 12, size: 0.064},
-    {id: 13, size: 0.064},
-    {id: 14, size: 0.064}
+    {id: 10, size: 0.327},
+    {id: 11, size: 0.327},
+    {id: 12, size: 0.327},
+    {id: 13, size: 0.327},
+    {id: 14, size: 0.327},
+    {id: 15, size: 0.327},
+    {id: 16, size: 0.327},
+    {id: 17, size: 0.327}
   ]
 # ## Tag bundle definitions
 # ### Remarks
