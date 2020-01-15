@@ -32,3 +32,11 @@ sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/
 sudo apt install  librealsense2-dkms librealsense2-utils librealsense2-dev librealsense2-dbg
 
 ```
+
+
+### launching
+
+from the catkin workspace:
+```
+roslaunch apriltag_ros continuous_detection.launch
+```
