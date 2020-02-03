@@ -1,0 +1,11 @@
+
+# intel realsense
+cam0:
+  camera_model: pinhole
+  intrinsics: [1378.309326171875, 1376.828125, 960.4511108398438, 569.503662109375]
+  distortion_model: plumb_bob
+  distortion_coeffs: [0.0, 0.0, 0.0, 0.0, 0.0]
+  resolution: [1920, 1080]
+  rostopic: /camera/banana/image_raw/compressed
+  tagtopic: /tagStuff/tags
+  rig_body: realsenseCamera_rig
