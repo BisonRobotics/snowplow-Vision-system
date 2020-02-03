@@ -1,3 +1,7 @@
 [submodule "tagslam"]
 	path = tagslam
 	url = git@github.com:berndpfrommer/tagslam_root.git
+[submodule "realsense-ros"]
+	path = realsense-ros
+	url = git@github.com:IntelRealSense/realsense-ros.git
+	branch = master
